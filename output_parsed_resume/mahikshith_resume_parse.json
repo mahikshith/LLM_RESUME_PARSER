@@ -1,0 +1,79 @@
+{
+    "contact": {
+        "Name": "Mahikshith",
+        "Email": "mahikshith97@gmail.com",
+        "Phone Number": "+91-6303423352",
+        "Website/Portfolio/LinkedIn": "https://linkedin.com/in/mahikshith",
+        "Github Profile": "https://github.com/mahikshith"
+    },
+    "education": {
+        "Institution Name": "Scalable Web Learning Factory",
+        "Degree": "Master of Science in Computer Science",
+        "Field of Study": "Artificial Intelligence and Machine learning",
+        "Graduation Date": "2024"
+    },
+    "experience": [
+        {
+            "Job Title": "",
+            "Company Name": "Amazon",
+            "Location": "",
+            "Dates of Employment": "2022-2024",
+            "Responsibilities/Projects": "Reduced Order Defect Rate (ODR) by 0.27% and brand infringement claims by 9.46% monthly, enhancing operational efficiency through Amazon QuickSight and SQL analytics."
+        }
+    ],
+    "projects": [
+        {
+            "Project Title": "AWS-Deployed Predictive Loan Risk classification Model",
+            "Description/Technologies Used": "",
+            "Outcomes/Results": ""
+        },
+        {
+            "Project Title": "Fine-tuned Transformer-based Text Summarization with NLP & ETL Pipeline implementation",
+            "Description/Technologies Used": "",
+            "Outcomes/Results": ""
+        }
+    ],
+    "skills": [
+        {
+            "Programming Languages": [
+                "Python"
+            ],
+            "Technologies/Tools/frameworks": [
+                "SQL",
+                "NumPy",
+                "Pandas",
+                "Matplotlib",
+                "Seaborn",
+                "Scikit-learn",
+                "TensorFlow",
+                "Keras",
+                "Data Analysis",
+                "Stats and Probability",
+                "Tableau",
+                "Hypothesis testing",
+                "Machine Learning",
+                "NLP",
+                "Time series forecasting",
+                "Flask",
+                "Docker",
+                "AWS",
+                "EC2",
+                "ECS",
+                "SageMaker",
+                "LLM",
+                "RAG",
+                "MLflow",
+                "Langchain",
+                "Web scraping",
+                "ETL",
+                "CI/CD pipeline"
+            ]
+        }
+    ],
+    "additionalInformation": {
+        "Certifications": "",
+        "Awards or Honors": "",
+        "Professional Affiliations": "",
+        "Languages": ""
+    }
+}

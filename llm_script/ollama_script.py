@@ -9,10 +9,10 @@ from langchain_core.prompts import(
 
 # output parser  
 
-from langchain.output_parsers import StringOutputParser , JsonOutputParser
+from langchain_core.output_parsers import StrOutputParser , JsonOutputParser
 
 base_url_ollama = "http://localhost:11434"
-model = 'llama3.2:3b'
+model = 'llama3.2:latest'
 
 llm = ChatOllama(base_url=base_url_ollama, model=model)  # not using all the parameters here 
 
@@ -79,7 +79,7 @@ human_message_prompt = HumanMessagePromptTemplate.from_template(prompt)
 def LLM_chain(context , question):
     template = ChatPromptTemplate.from_messages([system_message_prompt , human_message_prompt])
     # LLM Chain 
-    ollama_chain  = template | llm | StringOutputParser()   
+    ollama_chain  = template | llm | StrOutputParser()   
     return ollama_chain.invoke({"context" : context , "question" : question}) 
 
 # if the above strparser doesn't give out answers in the required format then we can use the json parser 
